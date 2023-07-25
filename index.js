@@ -99,7 +99,7 @@ function generateGoogleAuthToken() {
   console.log(
     "If you don't have one, please follow the instructions in the README.md file to create one.",
   );
-  console.log("https://github.com/truethari/NextDrive-toolkit/blob/master/README.md");
+  console.log("https://github.com/truethari/NextDrive-toolkit#google-drive");
   console.log();
 
   const messages = ["Next step", "Back to main menu", "Exit"];
