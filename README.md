@@ -96,9 +96,9 @@ To authenticate as an end user and access user data in your app, you need to cre
 - Go to the [Credentials](https://console.cloud.google.com/apis/credentials) page in the Google Cloud console.
 - Click **Create Credentials** and select **OAuth client ID**.
 - Select **Web application** and click **Create**.
-- Enter a name for your OAuth 2.0 client ID, such as "NextDrive-toolkit", and click **Create**.
-- Copy the client ID and client secret to use in the next section.
-- Click **OK**.
+- Enter a name for your OAuth 2.0 client ID, such as "NextDrive-toolkit"
+- In the **Authorized redirect URIs** section, enter `http://localhost:3000/oauth2callback`.
+- Click **Create**.
 - Click the **Download JSON** button to the right of the client ID.
 
 #### Configure the Toolkit
