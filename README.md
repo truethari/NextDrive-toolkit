@@ -57,13 +57,22 @@ To get a local copy up and running, follow these steps:
 
 ### Google Drive
 
+#### Create a Google Cloud project
+
+- Go to the [Google Cloud Console](https://console.cloud.google.com/).
+- Click the project selector at the top of the page.
+- Click **New Project**.
+- In the **Project name** field, enter a name for the project, such as "NextDrive-toolkit".
+- Click **Create**.
+- Make a note of the project ID, which might be different from the project name. The project ID is used in commands and in configurations.
+- Click **Open**.
+- In the **Google Cloud console**, on the project selector page, select your project.
+
 #### Enable the API
 
-Before using Google APIs, you need to turn them on in a Google Cloud project. You can turn on one or more APIs in a single Google Cloud project.
+Before using Google Drive APIs, you need to turn them on in a Google Cloud project. You can turn on one or more APIs in a single Google Cloud project.
 
-- In the Google Cloud console, enable the Google Drive API.
-
-  <button name="button" onclick="https://console.cloud.google.com/flows/enableapi?apiid=drive.googleapis.com">Enable the API</button>
+- In the Google Cloud console, enable the [Google Drive API](https://console.cloud.google.com/flows/enableapi?apiid=drive.googleapis.com).
 
 #### Configure the OAuth consent screen
 
